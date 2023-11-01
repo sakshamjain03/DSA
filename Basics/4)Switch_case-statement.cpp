@@ -1,8 +1,8 @@
 double areaSwitchCase(int ch, vector<double> a) {
-	int Area;
+	double Area=0.0;
 	switch(ch){
 		case 1:
-			Area=3.141593*a[1]*a[1];
+			Area=M_PI*a[0]*a[0];
 			return Area;
 			break;
 		case 2:
@@ -13,4 +13,3 @@ double areaSwitchCase(int ch, vector<double> a) {
 			return 0;
 	}
 }
-// case 1 failing
