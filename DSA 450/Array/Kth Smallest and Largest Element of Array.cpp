@@ -7,3 +7,4 @@ vector<int> kthSmallLarge(vector<int> &arr, int n, int k)
 	ans.push_back(arr[n-k]);
 	return ans;
 }
+// Can be done with sort too
