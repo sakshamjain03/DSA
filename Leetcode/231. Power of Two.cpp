@@ -14,7 +14,6 @@ public:
         return true;
     }
     return false;
-    }
-    
+    }    
 };
 // alternate method

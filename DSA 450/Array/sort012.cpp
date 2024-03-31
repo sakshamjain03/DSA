@@ -2,10 +2,9 @@
 #include <bits/stdc++.h> 
 void sort012(int *arr, int n)
 {
-//    sort(&arr[0],&arr[n]);
+   sort(&arr[0],&arr[n]);
    
 }
-
 //    Method 2: Using If Else
 #include <bits/stdc++.h> 
 void sort012(int *arr, int n)
@@ -35,6 +34,7 @@ void sort012(int *arr, int n)
 }
 
 // Method 3: Using Swap and Pointers
+// using dutch national flag algorithm
 #include <bits/stdc++.h> 
 void sort012(int *arr, int n)
 {

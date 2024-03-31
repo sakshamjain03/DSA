@@ -1,6 +1,5 @@
 #include <bits/stdc++.h> 
-pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
-{
+pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k){
     int first=-1,last=-1;
     for(int i=0;i<n;i++){
         if(arr[i]==k){
